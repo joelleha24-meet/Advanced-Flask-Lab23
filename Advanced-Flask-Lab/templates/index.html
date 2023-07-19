@@ -53,6 +53,13 @@
                         <h3>Caption... blah blah blah</h3>
                       </a>
                 </div>  
+                <div>
+                <ul>
+                {% for img in post_post %}
+                <li> <img src="{{img}}"/> </li>
+                {% endfor %}
+            		</ul>
+                </div>
 
 							</section>
 
@@ -65,8 +72,8 @@
 
 			</div>
 			<div>
-				{%for img in post%}
-				
+
+
 
 			</div>
 
